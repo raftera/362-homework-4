@@ -1,7 +1,7 @@
 def average(num):
     sum = 0
     for t in num:
-        if (t.is_numeric()):
+        if isinstance(t, int):
             sum += int(t)
 
     return sum / len(num)

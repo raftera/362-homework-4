@@ -1,6 +1,6 @@
 def volume(side1, side2, side3):
 
-    if side1.isnumeric() and side2.isnumeric() and side3.isnumeric():
+    if isinstance(side1, int) and isinstance(side1, int) and isinstance(side3, int):
 
 
      if side1 < 1:
